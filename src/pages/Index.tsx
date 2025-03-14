@@ -94,7 +94,7 @@ const Index = () => {
             <div className="relative w-64 h-[500px] rounded-[40px] border-[8px] border-gray-800 overflow-hidden shadow-2xl bg-black">
               <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-6 bg-gray-800 rounded-b-lg"></div>
               <img 
-                src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7" 
+                src="/images/app-screen-1.jpg" 
                 alt="Zyiper App Interface" 
                 className="w-full h-full object-cover"
               />
@@ -136,7 +136,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* How It Works Section */}
+      {/* How It Works Section with Images */}
       <section id="how-it-works" className="bg-gray-900 py-20">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
@@ -145,17 +145,23 @@ const Index = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             <div className="flex flex-col items-center text-center">
-              <div className="w-20 h-20 flex items-center justify-center bg-purple-900 rounded-full mb-6 text-2xl">1</div>
+              <div className="w-28 h-28 flex items-center justify-center bg-purple-900 rounded-full mb-6 overflow-hidden">
+                <img src="/images/app-screen-2.jpg" alt="Download App" className="w-full h-full object-cover" />
+              </div>
               <h3 className="text-xl font-semibold mb-3">Download the App</h3>
               <p className="text-gray-400">Get Zyiper from App Store or Google Play for free</p>
             </div>
             <div className="flex flex-col items-center text-center">
-              <div className="w-20 h-20 flex items-center justify-center bg-purple-900 rounded-full mb-6 text-2xl">2</div>
+              <div className="w-28 h-28 flex items-center justify-center bg-purple-900 rounded-full mb-6 overflow-hidden">
+                <img src="/images/app-screen-3.jpg" alt="Create Account" className="w-full h-full object-cover" />
+              </div>
               <h3 className="text-xl font-semibold mb-3">Create Account</h3>
               <p className="text-gray-400">Sign up with email or connect with social media</p>
             </div>
             <div className="flex flex-col items-center text-center">
-              <div className="w-20 h-20 flex items-center justify-center bg-purple-900 rounded-full mb-6 text-2xl">3</div>
+              <div className="w-28 h-28 flex items-center justify-center bg-purple-900 rounded-full mb-6 overflow-hidden">
+                <img src="/images/app-screen-4.jpg" alt="Start Creating" className="w-full h-full object-cover" />
+              </div>
               <h3 className="text-xl font-semibold mb-3">Start Creating</h3>
               <p className="text-gray-400">Make videos, go live, and connect with creators</p>
             </div>
@@ -187,7 +193,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Download Section */}
+      {/* Download Section with App Screenshots */}
       <section id="download" className="bg-gray-900 py-20">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -227,12 +233,19 @@ const Index = () => {
             </Button>
           </div>
           
+          <div className="flex flex-wrap justify-center gap-6 mb-10">
+            <div className="relative w-60 h-[400px] rounded-[30px] border-[6px] border-gray-800 overflow-hidden shadow-xl">
+              <img src="/images/app-screen-5.jpg" alt="Zyiper Interface 1" className="w-full h-full object-cover" />
+            </div>
+            <div className="relative w-60 h-[400px] rounded-[30px] border-[6px] border-gray-800 overflow-hidden shadow-xl">
+              <img src="/images/app-screen-6.jpg" alt="Zyiper Interface 2" className="w-full h-full object-cover" />
+            </div>
+            <div className="relative w-60 h-[400px] rounded-[30px] border-[6px] border-gray-800 overflow-hidden shadow-xl">
+              <img src="/images/app-screen-7.jpg" alt="Zyiper Interface 3" className="w-full h-full object-cover" />
+            </div>
+          </div>
+          
           <div className="relative inline-block">
-            <img 
-              src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" 
-              alt="Zyiper Interface" 
-              className="rounded-lg shadow-2xl max-w-full md:max-w-2xl mx-auto"
-            />
             <div className="absolute -top-5 -right-5 bg-purple-600 text-white text-sm font-bold py-2 px-4 rounded-full transform rotate-12 shadow-lg">
               Admin Panel Included!
             </div>
